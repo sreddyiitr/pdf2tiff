@@ -116,7 +116,7 @@ public class MultiPageCapture {
 
         try {
             // save page captures to file.
-            File file = new File("/Users/Sunil/Work/Project/pdf2tiff/src/main/resources/imageCapture.tif");
+            File file = new File("src/main/resources/SunilKothireddy.tif");
             ImageOutputStream ios = ImageIO.createImageOutputStream(file);
             ImageWriter writer = ImageIO.getImageWritersByFormatName("tiff").next();
             writer.setOutput(ios);
